@@ -1,0 +1,13 @@
+[
+    { "email": "user1@example.com", "password": "password123", "isVerified": true, "name": "User One", "provider": "credentials" },
+    { "email": "user2@example.com", "password": "password123", "isVerified": true, "name": "User Two", "provider": "credentials" },
+    { "email": "user3@example.com", "password": "password123", "isVerified": true, "name": "User Three", "provider": "credentials" },
+    { "email": "user4@example.com", "password": "password123", "isVerified": true, "name": "User Four", "provider": "credentials" },
+    { "email": "user5@example.com", "password": "password123", "isVerified": true, "name": "User Five", "provider": "credentials" },
+    { "email": "user6@example.com", "password": "password123", "isVerified": true, "name": "User Six", "provider": "credentials" },
+    { "email": "user7@example.com", "password": "password123", "isVerified": true, "name": "User Seven", "provider": "credentials" },
+    { "email": "user8@example.com", "password": "password123", "isVerified": true, "name": "User Eight", "provider": "credentials" },
+    { "email": "user9@example.com", "password": "password123", "isVerified": true, "name": "User Nine", "provider": "credentials" },
+    { "email": "user10@example.com", "password": "password123", "isVerified": true, "name": "User Ten", "provider": "credentials" }
+  ]
+  
