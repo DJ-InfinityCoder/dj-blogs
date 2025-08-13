@@ -19,7 +19,7 @@ export async function POST(req, { params }) {
     const ipAddress = forwardedFor ? forwardedFor.split(",")[0] : "Unknown IP";
 
     const fifteenMinutesAgo = new Date();
-    fifteenMinutesAgo.setMinutes(fifteenMinutesAgo.getMinutes() - 10);
+    fifteenMinutesAgo.setMinutes(fifteenMinutesAgo.getMinutes() - 2);
 
     const existingVisit = await Visitor.findOne({
       blogId: blog._id, 
