@@ -43,6 +43,7 @@ export default function Login() {
     if (provider === "github") setGithubLoading(true);
 
     await signIn(provider);
+    router.push("/dashboard/profile");
   };
 
   return (

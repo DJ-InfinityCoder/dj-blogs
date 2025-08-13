@@ -1,8 +1,8 @@
 export const metadata = {
   title: "DJ Blogs",
-  // icons: {
-  //   icon: '/logo.svg',
-  // },
+  icons: {
+    icon: '/logo.png',
+  },
 };
 
 import "./globals.css";

@@ -5,10 +5,10 @@ export function middleware(request) {
     const path = request.nextUrl.pathname; 
 
     if (token && (path === "/auth/login" || path === "/auth/signup")) {
-        return NextResponse.redirect(new URL("/dashboard", request.url));
+        return NextResponse.redirect(new URL("/dashboard/profile", request.url));
     }
 
-    if (!token && path === "/dashboard") {
+    if (!token && path === "/dashboard/profile") {
         return NextResponse.redirect(new URL("/auth/login", request.url));
     }
 
