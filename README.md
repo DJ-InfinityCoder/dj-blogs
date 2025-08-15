@@ -1,36 +1,75 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 📝 Blog Platform – Next.js App
 
-## Getting Started
+A full-stack **Next.js-based blogging platform** with authentication, blog management, categories, and interactive features like likes, comments, and views.  
+Designed for a smooth **content creation** and **reading experience**.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🌐 Live Demo
+[**dj-blogs.dilip.live**](https://dj-blogs.dilip.live)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 🚀 Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Authentication**
+  - User Signup, Login, Logout
+  - Email verification
+  - Secure session handling (NextAuth.js)
 
-## Learn More
+- **Blog Management**
+  - Create, edit, delete blogs
+  - Create blogs using **MDX Editor**
+  - Categorize blogs
+  - Track views and likes
 
-To learn more about Next.js, take a look at the following resources:
+- **User Dashboard**
+  - View blog statistics
+  - Manage personal blogs
+  - Edit profile
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Engagement**
+  - Like and unlike posts
+  - Comment system with replies
+  - Reaction support for comments
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Responsive UI**
+  - Tailwind CSS for styling
+  - Optimized for desktop & mobile
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🛠 Implementation Details
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### **Tech Stack**
+- **Frontend:** Next.js (App Router), React, Tailwind CSS
+- **Backend:** Next.js Route Handlers (API routes)
+- **Authentication:** NextAuth.js
+- **Database:** MongoDB
+- **State Management:** React hooks
+- **Styling:** Tailwind CSS
+
+## 🖼 Demo Images
+
+Below are some screenshots of the application in action.
+
+### 🏠 Homepage
+![Homepage Screenshot](./demo/homepage.png)
+
+### 📄 Blog
+![Blog Details Screenshot](./demo/blog-card.png)
+![Blog Details Screenshot](./demo/blog-card1.png)
+![Blog Details Screenshot](./demo/blog1.png)
+![Blog Details Screenshot](./demo/blog2.png)
+![Blog Details Screenshot](./demo/blog3.png)
+![Blog Details Screenshot](./demo/blog4.png)
+
+### 📊 User Dashboard
+![Dashboard Screenshot](./demo/dashboard1.png)
+![Dashboard Screenshot](./demo/dashboard2.png)
+
+
+### ✍️ Blog Editor (MDX)
+![MDX Editor Screenshot](./demo/editor1.png)
+![MDX Editor Screenshot](./demo/editor2.png)
+
